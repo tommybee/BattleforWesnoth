@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config_smooth_rules>
+
+  <weight>
+    <terrain name="desert_mountain"  />
+    <terrain name="water_snow_hills" />
+    <terrain name="hills"            />
+    <terrain name="desert_hills"     />
+    <terrain name="cave_hills"       />
+    <terrain name="lava"             />
+    <terrain name="cave_floor"       />
+    <terrain name="water_snow"       />
+    <terrain name="flat_grass"       />
+    <terrain name="flat_savanna"     />
+    <terrain name="flat_road"        />
+    <terrain name="flat_stone_path"  />
+    <terrain name="desert_sand"      />
+    <terrain name="desert"           />
+    <terrain name="desert_road"      />
+    <terrain name="flat_dirt"        />
+    <terrain name="water_ice"        />
+    <terrain name="water_ford"       />
+    <terrain name="water_coast"      />
+    <terrain name="water_ocean"      />
+  </weight>
+
+  <special>
+    <to>water_coast</to>
+    <to>water_ford</to>
+    <to>water_ocean</to>
+    <case name="flat_grass">
+      <image>flat_grass_to_water</image>
+    </case>
+    <case name="flat_savanna">
+      <image>flat_savanna_to_water</image>
+    </case>
+    <case name="hills">
+      <image>flat_grass_to_water</image>
+      <image>hills</image>
+    </case>
+    <case name="water_ice">
+      <image>water_ice_to_water</image>
+      <image>water_ice</image>
+    </case>
+    <case name="water_snow">
+      <image>water_ice_to_water</image>
+      <image>water_ice</image>
+      <image>water_snow_to_water</image>
+    </case>
+  </special>
+
+</config_smooth_rules>
